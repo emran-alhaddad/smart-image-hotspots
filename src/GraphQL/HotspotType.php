@@ -1,6 +1,6 @@
 <?php
 
-namespace EmranAlhaddad\StatamicImagehotspots\GraphQL;
+namespace EmranAlhaddad\SmartImageHotspots\GraphQL;
 
 use Rebing\GraphQL\Support\Type as GQLType;
 use GraphQL\Type\Definition\Type;

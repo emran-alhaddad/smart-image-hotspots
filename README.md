@@ -1,9 +1,9 @@
 Here’s the updated README in plain text using Markdown format:
 
 ```markdown
-# ![Icon](src/icon.svg) Statamic Imagehotspots
+# ![Icon](src/icon.svg) Smart Image Hotspots
 
-> Statamic Imagehotspots is a Statamic addon that allows you to add hotspots to images.
+> Smart Image Hotspots is a Statamic addon that allows you to add hotspots to images.
 
 ## Features
 This addon provides the following features:
@@ -16,7 +16,7 @@ This addon provides the following features:
 You can search for this addon in the `Tools > Addons` section of the Statamic control panel and click **install**, or run the following command from your project root:
 
 ```bash
-composer require emran-alhaddad/statamic-imagehotspots
+composer require emran-alhaddad/smart-image-hotspots
 ```
 
 ## How to Use

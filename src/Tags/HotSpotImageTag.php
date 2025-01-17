@@ -1,6 +1,6 @@
 <?php
 
-namespace EmranAlhaddad\StatamicImagehotspots\Tags;
+namespace EmranAlhaddad\SmartImageHotspots\Tags;
 
 use Statamic\Tags\Tags;
 
@@ -33,7 +33,6 @@ class HotSpotImageTag extends Tags
 				'image' => $data['imageFile'],
 				'hotspots' => $data['hotspots'],
 			];
-
 		} catch (\Exception $e) {
 			return '';
 		}

@@ -1,8 +1,8 @@
 <?php
 
-namespace EmranAlhaddad\StatamicImagehotspots\Fieldtypes;
+namespace EmranAlhaddad\SmartImageHotspots\Fieldtypes;
 
-use EmranAlhaddad\StatamicImagehotspots\GraphQL\ImageHotSpotsType;
+use EmranAlhaddad\SmartImageHotspots\GraphQL\ImageHotSpotsType;
 use Statamic\Fields\Fieldtype;
 use Statamic\Exceptions\AssetContainerNotFoundException;
 use Statamic\Facades\AssetContainer;

@@ -1,10 +1,10 @@
 <?php
 
-namespace EmranAlhaddad\StatamicImagehotspots;
+namespace EmranAlhaddad\SmartImageHotspots;
 
 use Statamic\Providers\AddonServiceProvider;
-use EmranAlhaddad\StatamicImagehotspots\Fieldtypes\ImageHotSpots;
-use EmranAlhaddad\StatamicImagehotspots\Tags\HotSpotImageTag;
+use EmranAlhaddad\SmartImageHotspots\Fieldtypes\ImageHotSpots;
+use EmranAlhaddad\SmartImageHotspots\Tags\HotSpotImageTag;
 use Statamic\Facades\GraphQL;
 
 class ServiceProvider extends AddonServiceProvider
@@ -24,9 +24,9 @@ class ServiceProvider extends AddonServiceProvider
 
     public function bootAddon()
     {
-        GraphQL::addType(\EmranAlhaddad\StatamicImagehotspots\GraphQL\HotspotType::class);
-        GraphQL::addType(\EmranAlhaddad\StatamicImagehotspots\GraphQL\HotImageType::class);
-        GraphQL::addType(\EmranAlhaddad\StatamicImagehotspots\GraphQL\ImageHotSpotsType::class);
+        GraphQL::addType(\EmranAlhaddad\SmartImageHotspots\GraphQL\HotspotType::class);
+        GraphQL::addType(\EmranAlhaddad\SmartImageHotspots\GraphQL\HotImageType::class);
+        GraphQL::addType(\EmranAlhaddad\SmartImageHotspots\GraphQL\ImageHotSpotsType::class);
         ImageHotSpots::register();
     }
 }

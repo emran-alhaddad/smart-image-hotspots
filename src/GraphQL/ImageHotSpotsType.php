@@ -1,6 +1,6 @@
 <?php
 
-namespace EmranAlhaddad\StatamicImagehotspots\GraphQL;
+namespace EmranAlhaddad\SmartImageHotspots\GraphQL;
 
 use Nette\Utils\ImageType;
 use Rebing\GraphQL\Support\Type;
