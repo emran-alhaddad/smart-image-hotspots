@@ -1,6 +1,3 @@
-Here’s the updated README in plain text using Markdown format:
-
-```markdown
 # ![Icon](src/icon.svg) Smart Image Hotspots
 
 > Smart Image Hotspots is a Statamic addon that allows you to add hotspots to images.
@@ -134,4 +131,3 @@ Here’s an example of a GraphQL query to fetch hotspot data:
 ```
 
 With this feature, you can easily integrate your image hotspots into dynamic GraphQL-based frontends or APIs.
-```
